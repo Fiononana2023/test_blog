@@ -41,11 +41,11 @@ const Blog = () => {
             plus élevés au monde.
           </p>
           <br /> <br />
-          <div className="text-center">
+          <div className="text-center backdrop-blur-sm bg-white/30">
             <h2 className="text-3xl font-bold tracking-tight text-slate-50 sm:text-4xl">
               Faune et Flore de l'île.
             </h2>
-            <p className="max-w-2xl mx-auto mt-3 font-serif text-xl font-semibold text-slate-200 sm:mt-4">
+            <p className="max-w-2xl mx-auto mt-3 font-serif text-xl font-semibold text-slate-100 sm:mt-4">
               Avec une richesse biologique exceptionnelle mais une déforestation
               totalement incontrôlée, Madagascar fait partie des hotspots de la
               planète
