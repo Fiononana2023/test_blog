@@ -1,16 +1,17 @@
 export default function Trips() {
   return (
     <>
-      <div>
+      {/* <div className="bg-scroll bg-no-repeat bg-center bg-cover bg-[url('/images/Isalo.jpg')] my-4 rounded-lg"> */}
+      <div className="bg-scroll bg-center bg-cover bg-gray-100 my-4 rounded-lg">
         <div>
-          <h1 className="text-5xl hover:underline text-gray-600 p-12">
+          <h1 className="text-5xl hover:underline italic p-12">
             Madagascar et ses provinces
           </h1>
         </div>
         <br />
-        <h1 className="text-3xl text-blue-600 p-3">Antananarivo</h1>
+        <h1 className="text-3xl text-blue-600 p-3 font-bold">Antananarivo</h1>
         <div className="card h-100 grid grid-cols-2 m-4">
-          <p className="pr-40">
+          <p className="pr-40 text-slate-800">
             Antananarivo est la capitale de Madagascar, située dans la région
             des Hautes Terres centrales de l'île. Chargées d’histoire, la région
             Analamanga et ses collines sacrées invitent le voyageur à découvrir
@@ -25,12 +26,12 @@ export default function Trips() {
         </div>
         <br />
 
-        <h1 className="text-3xl text-blue-600 p-3">Fianarantsoa</h1>
+        <h1 className="text-3xl text-blue-600 p-3 font-bold">Fianarantsoa</h1>
         <div className="grid grid-cols-2 m-4 px-6">
           <div>
             <img src="/images/fianara2.jpg" className="rounded-xl" />
           </div>
-          <p className="pr-40">
+          <p className="pr-40 text-slate-800">
             Au centre de l’île, un peu vers le sud, entre monts découpés et
             verts du Betsileo, se trouve Fianarantsoa. Ses 150 000 habitants en
             font une véritable ville, capitale de la région, connue pour son thé
@@ -42,9 +43,9 @@ export default function Trips() {
           </p>
         </div>
         <br />
-        <h1 className="text-3xl text-blue-600 p-3">Antsiranana</h1>
+        <h1 className="text-3xl text-blue-600 p-3 font-bold">Antsiranana</h1>
         <div className="grid grid-cols-2 m-4">
-          <p className="pr-40">
+          <p className="pr-40 text-slate-800">
             Au nord de Madagascar, au bout du cap d’Ambre, se trouve
             Antsiranana, plus connue sous le nom de Diégo-Suarez. Marquée par
             une présence française qui perdura jusque dans les années 1970,
@@ -59,12 +60,12 @@ export default function Trips() {
             <img src="/images/diego1.jpg" className="rounded-xl" />
           </div>
         </div>
-        <h1 className="text-3xl text-blue-600 p-3">Toamasina</h1>
+        <h1 className="text-3xl text-blue-600 p-3 font-bold">Toamasina</h1>
         <div className="grid grid-cols-2 m-4 px-6">
           <div>
             <img src="/images/tav1.jfif" className="rounded-xl" />
           </div>
-          <p className="pr-40">
+          <p className="pr-40 text-slate-800">
             Premier port commercial de l’île, capitale de la province de l’Est
             et de l’ethnie des Betsimisarakas, Tamatave pourrait être appelée
             `la Venise malgache` tant il tombe d’eau au mètre carré. Attention
@@ -77,9 +78,9 @@ export default function Trips() {
           </p>
         </div>
         <br />
-        <h1 className="text-3xl text-blue-600 p-3">Mahajanga</h1>
+        <h1 className="text-3xl text-blue-600 p-3 font-bold">Mahajanga</h1>
         <div className="grid grid-cols-2 m-4">
-          <p className="pr-40">
+          <p className="pr-40 text-slate-800">
             Majunga est une ville portuaire du nord-ouest de Madagascar, lovée
             contre le canal du Mozambique, elle se trouve à l’embouchure du
             fleuve Betsiboka. La ville est très étendue, on s’y retrouve grâce
@@ -96,12 +97,12 @@ export default function Trips() {
           </div>
         </div>
         <br />
-        <h1 className="text-3xl text-blue-600 p-3">Toliara</h1>
+        <h1 className="text-3xl text-blue-600 p-3 font-bold">Toliara</h1>
         <div className="grid grid-cols-2 m-4 px-6">
           <div>
-            <img src="/images/tul3.jfif" className="rounded-xl" />
+            <img src="/images/tul3.jfif" className="rounded-xl pb-4" />
           </div>
-          <p className="pr-40">
+          <p className="pr-40 text-slate-800 pb-4">
             Située sur la côte sud-ouest de Madagascar, sur le littoral du canal
             du Mozambique, il faut parcourir près de 1000 km pour atteindre
             Tuléar depuis la capitale Antananarivo. Implantée dans la plaine
