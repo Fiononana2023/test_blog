@@ -8,4 +8,5 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # mon premier blog avec React js
-![image-3](https://github.com/Fiononana2023/test_blog/assets/146155717/3796abe7-7deb-4266-8373-ad79b7e3de6f)
+
+![Uploading image-31.jpeg…]()
